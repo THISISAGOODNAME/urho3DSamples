@@ -30,3 +30,4 @@ include (UrhoCommon)
 # Samples
 add_subdirectory(samples/00-emptyProject)
 add_subdirectory(samples/01-helloWorld)
+add_subdirectory(samples/02-helloGUI)
