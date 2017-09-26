@@ -220,6 +220,10 @@ public:
             cameraNode_->Translate(Vector3::LEFT * MOVE_SPEED * timeStep);
         if (input->GetKeyDown(KEY_D))
             cameraNode_->Translate(Vector3::RIGHT * MOVE_SPEED * timeStep);
+
+        // Toggle debug geometry with space
+        if (input->GetKeyPress(KEY_SPACE))
+            drawDebug_ = !drawDebug_;
     }
 
     void HandleUpdate(StringHash eventType, VariantMap& eventData)
