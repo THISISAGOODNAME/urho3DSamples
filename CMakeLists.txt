@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.6)
 
 if (COMMAND cmake_policy)
     # Libraries linked via full path no longer produce linker search paths
@@ -39,3 +39,4 @@ add_subdirectory(samples/07-renderToTexture)
 add_subdirectory(samples/08-physics)
 add_subdirectory(samples/09-ragdolls)
 add_subdirectory(samples/10-SoundEffects)
+add_subdirectory(samples/11-navigation)
